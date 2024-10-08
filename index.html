@@ -1,0 +1,1300 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>$Panik - The panik  for Ethereum</title>
+	<meta name="description" content="!Panik - The panik  for Ethereum">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+	<!-- STYLESHEETS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/all.min.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/simple-line-icons.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/slick.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/animate.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" media="all">
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+
+	<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	
+	<style>
+	.none{
+		display: none;
+	}
+	</style>
+<style>
+   body {
+  font-family: "Helvetica Neue", Arial, sans-serif; /* Replace with your desired font */
+  font-size: 16px; /* Replace with your desired font size */
+  background-color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 24px; /* Adjust the header size to your liking */
+}
+}
+</style>
+
+
+
+</head>
+
+<body>
+
+<!-- Preloader -->
+<div id="preloader" class="light">
+	<div class="outer">
+		<!-- Google Chrome -->
+		<div class="infinityChrome">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+
+		<!-- Safari and others -->
+		<div class="infinity">
+			<div>
+				<span></span>
+			</div>
+			<div>
+				<span></span>
+			</div>
+			<div>
+				<span></span>
+			</div>
+		</div>
+		<!-- Stuff -->
+		<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="goo-outer">
+			<defs>
+				<filter id="goo">
+					<feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur" />
+					<feColorMatrix in="blur" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+					<feBlend in="SourceGraphic" in2="goo" />
+				</filter>
+			</defs>
+		</svg>
+	</div>
+</div>
+
+<!-- desktop header -->
+<header class="desktop-header-3 light fixed-top">
+
+    <div class="container">
+	
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="#home"><img src="images/logo.gif" alt="Panik" width="64" /></a> <button aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNavDropdown" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto scrollspy">
+                    <li class="nav-item"><a href="#tokenomics" class="nav-link">Tokenomics</a></li>
+                    <li class="nav-item"><a onclick="showNotification()"  class="nav-link">Buy</a></li>
+                    <li class="nav-item"><a href="#roadmap" class="nav-link">About</a></li>
+
+                </ul>
+            </div>
+        </nav>
+
+    </div>
+
+</header>
+
+<!-- main layout -->
+<main class="content-3">
+	
+	<!-- section home -->
+	<section id="home" class="home d-flex light align-items-center">
+		<div class="container">
+
+			<!-- intro -->
+			<div class="intro">
+				<!-- avatar image -->
+				<img src="images/logo.gif" alt="Panik" class="mb-4" width="300" />
+
+				<!-- info -->
+				<h1 class="mb-4 mt-0"><span class="dollar">$</span>Panik</h1>
+				<span>The panik  for <span class="text-rotating">Meme Coin Enthusiasts, All, Memecoin Connoisseurs</span></span>
+
+
+
+
+			</div>
+			
+		
+
+			<!-- parallax layers -->
+			<div class="parallax" data-relative-input="true">
+
+				<svg width="27" height="29" data-depth="0.3" class="layer p1" xmlns="http://www.w3.org/2000/svg"><path d="M21.15625.60099c4.37954 3.67487 6.46544 9.40612 5.47254 15.03526-.9929 5.62915-4.91339 10.30141-10.2846 12.25672-5.37122 1.9553-11.3776.89631-15.75715-2.77856l2.05692-2.45134c3.50315 2.93948 8.3087 3.78663 12.60572 2.22284 4.297-1.5638 7.43381-5.30209 8.22768-9.80537.79387-4.50328-.8749-9.08872-4.37803-12.02821L21.15625.60099z" fill="#FFD15C" fill-rule="evenodd"/></svg>
+
+				<svg width="26" height="26" data-depth="0.2" class="layer p2" xmlns="http://www.w3.org/2000/svg"><path d="M13 3.3541L2.42705 24.5h21.1459L13 3.3541z" stroke="#FF4C60" stroke-width="3" fill="none" fill-rule="evenodd"/></svg>
+
+				<svg width="30" height="25" data-depth="0.3" class="layer p3" xmlns="http://www.w3.org/2000/svg"><path d="M.1436 8.9282C3.00213 3.97706 8.2841.92763 14.00013.92796c5.71605.00032 10.9981 3.04992 13.85641 8 2.8583 4.95007 2.8584 11.0491-.00014 16.00024l-2.77128-1.6c2.28651-3.96036 2.28631-8.84002.00011-12.8002-2.2862-3.96017-6.5124-6.40017-11.08513-6.4-4.57271.00018-8.79872 2.43984-11.08524 6.4002l-2.77128-1.6z" fill="#44D7B6" fill-rule="evenodd"/></svg>
+
+				<svg width="15" height="23" data-depth="0.6" class="layer p4" xmlns="http://www.w3.org/2000/svg"><rect transform="rotate(30 9.86603 10.13397)" x="7" width="3" height="25" rx="1.5" fill="#FFD15C" fill-rule="evenodd"/></svg>
+
+				<svg width="15" height="23" data-depth="0.2" class="layer p5" xmlns="http://www.w3.org/2000/svg"><rect transform="rotate(30 9.86603 10.13397)" x="7" width="3" height="25" rx="1.5" fill="#6C6CE5" fill-rule="evenodd"/></svg>
+
+				<svg width="49" height="17" data-depth="0.5" class="layer p6" xmlns="http://www.w3.org/2000/svg"><g fill="#FF4C60" fill-rule="evenodd"><path d="M.5 16.5c0-5.71709 2.3825-10.99895 6.25-13.8567 3.8675-2.85774 8.6325-2.85774 12.5 0C23.1175 5.50106 25.5 10.78292 25.5 16.5H23c0-4.57303-1.90625-8.79884-5-11.08535-3.09375-2.28652-6.90625-2.28652-10 0C4.90625 7.70116 3 11.92697 3 16.5H.5z"/><path d="M23.5 16.5c0-5.71709 2.3825-10.99895 6.25-13.8567 3.8675-2.85774 8.6325-2.85774 12.5 0C46.1175 5.50106 48.5 10.78292 48.5 16.5H46c0-4.57303-1.90625-8.79884-5-11.08535-3.09375-2.28652-6.90625-2.28652-10 0-3.09375 2.28651-5 6.51232-5 11.08535h-2.5z"/></g></svg>
+
+				<svg width="26" height="26" data-depth="0.4" class="layer p7" xmlns="http://www.w3.org/2000/svg"><path d="M13 22.6459L2.42705 1.5h21.1459L13 22.6459z" stroke="#FFD15C" stroke-width="3" fill="none" fill-rule="evenodd"/></svg>
+
+				<svg width="19" height="21" data-depth="0.3" class="layer p8" xmlns="http://www.w3.org/2000/svg"><rect transform="rotate(-40 6.25252 10.12626)" x="7" width="3" height="25" rx="1.5" fill="#6C6CE5" fill-rule="evenodd"/></svg>
+
+				<svg width="30" height="25" data-depth="0.3" data-depth-y="-1.30" class="layer p9" xmlns="http://www.w3.org/2000/svg"><path d="M29.8564 16.0718c-2.85854 4.95114-8.1405 8.00057-13.85654 8.00024-5.71605-.00032-10.9981-3.04992-13.85641-8-2.8583-4.95007-2.8584-11.0491.00014-16.00024l2.77128 1.6c-2.28651 3.96036-2.28631 8.84002-.00011 12.8002 2.2862 3.96017 6.5124 6.40017 11.08513 6.4 4.57271-.00018 8.79872-2.43984 11.08524-6.4002l2.77128 1.6z" fill="#6C6CE5" fill-rule="evenodd"/></svg>
+
+				<svg width="47" height="29" data-depth="0.2" class="layer p10" xmlns="http://www.w3.org/2000/svg"><g fill="#44D7B6" fill-rule="evenodd"><path d="M46.78878 17.19094c-1.95535 5.3723-6.00068 9.52077-10.61234 10.8834-4.61167 1.36265-9.0893-.26708-11.74616-4.27524-2.65686-4.00817-3.08917-9.78636-1.13381-15.15866l2.34923.85505c-1.56407 4.29724-1.2181 8.92018.90705 12.12693 2.12514 3.20674 5.70772 4.5107 9.39692 3.4202 3.68921-1.0905 6.92581-4.40949 8.48988-8.70673l2.34923.85505z"/><path d="M25.17585 9.32448c-1.95535 5.3723-6.00068 9.52077-10.61234 10.8834-4.61167 1.36264-9.0893-.26708-11.74616-4.27525C.16049 11.92447-.27182 6.14628 1.68354.77398l2.34923.85505c-1.56407 4.29724-1.2181 8.92018.90705 12.12692 2.12514 3.20675 5.70772 4.5107 9.39692 3.4202 3.68921-1.0905 6.92581-4.40948 8.48988-8.70672l2.34923.85505z"/></g></svg>
+
+				<svg width="33" height="20" data-depth="0.5" class="layer p11" xmlns="http://www.w3.org/2000/svg"><path d="M32.36774.34317c.99276 5.63023-1.09332 11.3614-5.47227 15.03536-4.37895 3.67396-10.3855 4.73307-15.75693 2.77837C5.76711 16.2022 1.84665 11.53014.8539 5.8999l3.15139-.55567c.7941 4.50356 3.93083 8.24147 8.22772 9.8056 4.29688 1.56413 9.10275.71673 12.60554-2.2227C28.34133 9.98771 30.01045 5.4024 29.21635.89884l3.15139-.55567z" fill="#FFD15C" fill-rule="evenodd"/></svg>
+
+			</div>
+		</div>
+		
+	</section>
+
+	<!-- section about -->
+	<section id="tokenomics">
+
+		<div class="container">
+			
+			<!-- section title -->
+			<h2 class="section-title wow fadeInUp"><u>Tokenomics</h2></u>
+			
+			<div class="row">
+
+				<div class="col-md-3">
+					<div class="text-center text-md-left">
+						<br />
+						<p><span class="dollar-regular"></span>The purpose of our tokenomics is to reward holders and encourage long-term investment. Through our cutting-edge rewards system, holding $Panik will generate passive revenue for you. Stakers are entitled to a part of the supply.
+									<br /><br />
+									
+									And
+						
+					</div>
+					<div class="spacer d-md-none d-lg-none" data-height="30"></div>
+				</div>
+
+				<div class="col-md-9 triangle-left-md triangle-top-sm">
+					<div class="rounded bg-white shadow-dark padding-30">
+						<div class="row">
+							<div class="col-md-6">
+								<!-- about text -->
+									<b>Total Supply: </b><span class="dollar-regular">$</span>Panik coins total unlocked supply is 1B (1,000,000,000 $Panik)> 📥 <br /><br />
+									
+								<div class="spacer d-md-none d-lg-none" data-height="30"></div>
+							</div>
+							<div class="col-md-6">
+								<!-- skill item -->
+								<div class="skill-item">
+									<div class="skill-info clearfix">
+										<h4 class="float-left mb-3 mt-0">Total Supply</h4>
+										<span class="float-right">1,000,000,000,000 $Panik</span>
+									</div>
+									<div class="progress">
+										<div class="progress-bar data-background" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100" data-color="#FFD15C">
+										</div>
+									</div>
+									<div class="spacer" data-height="20"></div>
+								</div>
+
+								<!-- skill item -->
+								<div class="skill-item">
+									<div class="skill-info clearfix">
+										<h4 class="float-left mb-3 mt-0">5% Claim via Airdrop</h4>
+										<span class="float-right">50,000,000 $Panik</span>
+									</div>
+									<div class="progress">
+										<div class="progress-bar data-background" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="5" data-color="brown">
+										</div>
+									</div>
+									<div class="spacer" data-height="20"></div>
+								</div>
+
+								<!-- skill item -->
+								<div class="skill-item">
+									<div class="skill-info clearfix">
+										<h4 class="float-left mb-3 mt-0">44% Liquidity Locked</h4>
+										<span class="float-right">440,000,000 $Panik</span>
+									</div>
+									<div class="progress">
+										<div class="progress-bar data-background" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="44" data-color="blue">
+										</div>
+									</div>
+									<div class="spacer" data-height="20"></div>
+								</div>
+
+								<!-- skill item -->
+								<div class="skill-item">
+									<div class="skill-info clearfix">
+										<h4 class="float-left mb-3 mt-0">4% Marketing </h4>
+										<span class="float-right">40,000,000 $Panik</span>
+									</div>
+									<div class="progress">
+										<div class="progress-bar data-background" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="10" data-color="red">
+										</div>
+									</div>
+									<div class="spacer" data-height="20"></div>
+								</div>
+
+								<div class="skill-item">
+									<div class="skill-info clearfix">
+										<h4 class="float-left mb-3 mt-0">1% Team </h4>
+										<span class="float-right">10,000,000 $Panik</span>
+									</div>
+									<div class="progress">
+										<div class="progress-bar data-background" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="10" data-color="red">
+										</div>
+									</div>
+									<div class="spacer" data-height="20"></div>
+								</div>
+
+								<div class="skill-item">
+									<div class="skill-info clearfix">
+										<h4 class="float-left mb-3 mt-0">44% Presale </h4>
+										<span class="float-right">440,000,000 $Panik</span>
+									</div>
+									<div class="progress">
+										<div class="progress-bar data-background" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="50" data-color="#6C6CE5">
+										</div>
+									</div>
+									<div class="spacer" data-height="20"></div>
+								</div>
+
+								<div class="skill-item">
+									<div class="skill-info clearfix">
+										<h4 class="float-left mb-3 mt-0">2% Future </h4>
+										<span class="float-right">20,000,000 $Panik</span>
+									</div>
+									<div class="progress">
+										<div class="progress-bar data-background" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="10" data-color="green">
+										</div>
+									</div>
+									<div class="spacer" data-height="20"></div>
+								</div>
+
+
+								<br />
+
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<!-- row end -->
+
+			<div class="spacer" data-height="90"></div>
+			
+
+		</div>
+		
+	</section>
+	
+	<!-- section services -->
+	<section id="claim">
+
+		<div class="container">
+			
+			<!-- section title -->
+			<h1
+                  class="mt-5 text-3xl tracking-tight font-extrabold text-stimmy-black sm:mt-5 sm:text-3xl lg:mt-6 xl:text-3xl">
+                  <span class="block">How To Buy $PANIK</span></h1>
+                <div class="py-12 flex flex-col md:flex-row align-center justify-between">
+                
+                  <div class="text-stimmy-black flex flex-col justify-center text-left px-8 md:px-0 py-3 md:py-0">
+                    <h2><p class="py-3 font-extrabold text-3xl">Create a Wallet</p></h2>
+                    <p class="py-3">
+Download Metamask or your preferred wallet from the Google Play or App Store. Go to metamask.io to get the Google Chrome extension for desktop users.</p>
+                    <h2><p class="py-3 font-extrabold text-3xl">Obtain Some ETH</p></h2>
+                    <p class="py-3">
+To buy $panik, you must have ETH in your wallet. You can transfer from another wallet, purchase straight on Metamask, or purchase on an exchange and have the ETH sent to you.</p>
+                    <h2><p class="py-3 font-extrabold text-3xl">Visit Uniswap</p></h2>
+                    <h6><p class="py-3">
+                      Connect to Uniswap. Go to
+                      <!-- --><a
+                        href=""
+                        target="_blank">app.uniswap.org</a></h6> 
+ Use Google Chrome or the browser built with the Metamask app to navigate to app.uniswap.org. Connect your wallet, Enter Uniswap, choose panik, and confirm after pasting the $panik token address. When Metamask asks you to sign your wallet, do so.
+                      <!-- -->
+                    
+                  </div>
+                </div>
+
+			</div>
+
+			
+<section id="buttons-section">
+  <header>
+    <h2>Get Started Today</h2>
+  </header>
+
+  <style>
+    #buttons-section {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    #buttons-section header {
+      margin-bottom: 20px;
+    }
+
+    #buttons-section .buttons-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    #buttons-section .buttons-container .btn {
+      display: inline-block;
+      padding: 15px 30px;
+      font-size: 18px;
+      border-radius: 30px;
+      background-color: #ff0000;
+      color: #fff;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    #buttons-section .buttons-container .btn:hover {
+      background-color: #cc0000;
+    }
+  </style>
+
+
+  <div class="buttons-container">
+    <a onclick="showNotification()" class="btn btn-default">Buy on Uniswap</a>
+    
+  <!-- buttons
+    <a button id="claimAirdropBtn" class="btn btn-default">Claim your Panik Coins </a>
+  </div>
+</section>
+ -->
+
+		
+	
+
+	
+	<!-- section experience -->
+	<section id="roadmap">
+
+		<div class="container">
+			
+			<!-- section title -->
+			<h2 class="section-title wow fadeInUp">What is $Panik about?</h2>
+
+			<div class="spacer" data-height="60"></div>
+			
+			<div class="row">
+
+				<div class="col-md-6">
+					
+					<!-- timeline wrapper -->
+					<div class="timeline edu bg-white rounded shadow-dark padding-30 overflow-hidden">
+
+						<!-- timeline item -->
+					
+
+						<!-- timeline item -->
+						<div class="timeline-container wow fadeInUp" data-wow-delay="0.2s">
+							<div class="content">
+							$Panik is the therapy for web3 degens. It is an experimental and unique meme coin created to alleviate anxiety and panic attacks that alot of web3 enthusiasts face.	</div>
+						</div>
+
+						<!-- timeline item -->
+						<div class="timeline-container wow fadeInUp" data-wow-delay="0.4s">
+							<div class="content">
+								<p> We aim to create a safe and supportive community for every $panicker. Join us today with fun memes and let us go to moon
+						🚀</p>
+							</div>
+						</div>
+
+						<!-- main line -->
+						<span class="line"></span>
+
+					</div>
+
+				</div>
+
+			
+
+			</div>
+
+		</div>
+		
+	</section>
+	
+<section id="social-media">
+  <header>
+    <h2>Follow Our Social Media Accounts</h2>
+  </header>
+
+  <style>
+    #social-media {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    #social-media header {
+      margin-bottom: 20px;
+    }
+
+    #social-media ul.social-icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    #social-media ul.social-icons li {
+      margin-right: 30px;
+    }
+
+    #social-media ul.social-icons li:last-child {
+      margin-right:1 0;
+    }
+
+    #social-media ul.social-icons li a {
+      display: inline-block;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      border: 2px solid #ccc;
+      text-align: center;
+      line-height: 80px;
+      font-size: 24px;
+    }
+  </style>
+
+  <!-- social icons -->
+  <ul class="social-icons light list-inline mb-0 mt-4">
+    <li class="list-inline-item">
+      <div class="box">
+        <a target="_blank" href="https://twitter.com/panikcoin">
+          <i class="fab fa-twitter"></i>
+          <span>Twitter</span>
+        </a>
+      </div>
+    </li>
+    <li class="list-inline-item">
+      <div class="box">
+        <a href="https://t.me/panikcoinerc" >
+          <i class="fab fa-telegram"></i>
+          <span>Telegram</span>
+        </a>
+      </div>
+    </li>
+  </ul>
+</section>
+
+
+<!-- Airdrop script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/web3/4.0.1/web3.min.js"></script>
+<script>
+  // Configure web3 provider
+  if (typeof window.ethereum !== 'undefined') {
+    window.ethereum.enable(); // Request user permission to connect
+    var web3Provider = window.ethereum;
+    window.web3 = new Web3(web3Provider);
+  } else {
+    console.error('Please install MetaMask extension.'); // Prompt user to install MetaMask
+  }
+
+  // Function to claim the airdrop
+  var claimAirdrop = async function() {
+    try {
+      // Get the current user's address
+      var accounts = await web3.eth.getAccounts();
+      var userAddress = accounts[0];
+
+      // Perform the airdrop transaction
+      var contractAddress = '0x5793c6bef333b12dfaba37db74cce9ea91402cbf'; // Replace with your contract address
+      var contractABI = [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_claimAmount",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "_claimTokenAddress",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "HasAlreadyClaimed",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "NotAdmin",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "TransferFailed",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "YouAreNotEligible",
+      "type": "error"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "claimer",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "Claimed",
+      "type": "event"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32[]",
+          "name": "_merkleProof",
+          "type": "bytes32[]"
+        }
+      ],
+      "name": "claim",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "claimed",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "merkleRoot",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_to",
+          "type": "address"
+        }
+      ],
+      "name": "removeLeftOver",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "_merkleRoot",
+          "type": "bytes32"
+        }
+      ],
+      "name": "setMerkleProof",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ]; // Replace with your contract ABI
+
+      var contract = new web3.eth.Contract(contractABI, contractAddress);
+      var result = await contract.methods.claim().send({ from: userAddress });
+
+      // Handle the result as needed
+      console.log(result); // Log the transaction result
+      alert('Airdrop claimed successfully!'); // Show success message to the user
+    } catch (error) {
+      console.error(error); // Log any errors that occurred during the process
+      alert('Failed to claim the airdrop.'); // Show error message to the user
+    }
+  };
+
+  // Add event listener to the claim airdrop button
+  var claimAirdropBtn = document.getElementById('claimAirdropBtn');
+  claimAirdropBtn.addEventListener('click', claimAirdrop);
+</script>
+
+
+	
+
+
+	<div class="spacer" data-height="96"></div>
+    
+    <footer class="footer light">
+        <div class="container">
+            <span class="copyright">© 2023 <span class="dollar-basic">!</span>Panik</span> <a onclick="alert('!Panik is a decentralized experiment and, as such, we always encourage discretion when using ANY cryptocurrency website and platform. As with all cryptocurrencies volatility can occur. Be smart and be a good community member.')">(note)</a>
+        </div>
+    </footer>
+	
+</main>
+
+<!-- script -->
+
+<script
+    src="../cdn.ethers.io/lib/ethers-5.2.umd.min.js"
+    type="application/javascript"
+></script>
+
+<script>
+    function showNotification() {
+    alert("Coming Soon");
+  }
+    
+</script>
+
+<script>
+
+
+    let abi =[
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_totalSupply",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "owner",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "spender",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "Approval",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "previousOwner",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "OwnershipTransferred",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "from",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "to",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "Transfer",
+      "type": "event"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "owner",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "spender",
+          "type": "address"
+        }
+      ],
+      "name": "allowance",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "spender",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "approve",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "account",
+          "type": "address"
+        }
+      ],
+      "name": "balanceOf",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_address",
+          "type": "address"
+        },
+        {
+          "internalType": "bool",
+          "name": "_isBlacklisting",
+          "type": "bool"
+        }
+      ],
+      "name": "blacklist",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "blacklists",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "value",
+          "type": "uint256"
+        }
+      ],
+      "name": "burn",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "decimals",
+      "outputs": [
+        {
+          "internalType": "uint8",
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "spender",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "subtractedValue",
+          "type": "uint256"
+        }
+      ],
+      "name": "decreaseAllowance",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "spender",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "addedValue",
+          "type": "uint256"
+        }
+      ],
+      "name": "increaseAllowance",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "limited",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "maxHoldingAmount",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "minHoldingAmount",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "name",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "renounceOwnership",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bool",
+          "name": "_limited",
+          "type": "bool"
+        },
+        {
+          "internalType": "address",
+          "name": "_uniswapV2Pair",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_maxHoldingAmount",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_minHoldingAmount",
+          "type": "uint256"
+        }
+      ],
+      "name": "setRule",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "symbol",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "totalSupply",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "recipient",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "transfer",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "sender",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "recipient",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "transferFrom",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "transferOwnership",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "uniswapV2Pair",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ]
+    
+      const CONTRACT_ADDRESS = '0x5793c6bef333b12dfaba37db74cce9ea91402cbf'
+	  
+      let provider, signer, accounts, contract, timeout
+      
+      const btnConnect = document.getElementById("btnConnect")
+      btnConnect.addEventListener('click', connectWallet)
+      
+      const btnClaim_green = document.getElementById("btnClaim_green")
+      const btnClaim_nfts  = document.getElementById("btnClaim_nfts")
+            
+      btnClaim_green.addEventListener('click', claim_green)
+     
+    
+      function connectWallet() {
+        if (typeof window.ethereum !== 'undefined') {
+          provider = new ethers.providers.Web3Provider(window.ethereum)
+          signer = provider.getSigner()
+          provider.send('eth_requestAccounts')
+            .then((result) => {
+            accounts = result
+    
+            document.dispatchEvent(new Event('walletConnected'))
+          })
+            .catch((err) => {
+            console.log(err)
+    
+            document.dispatchEvent(new Event('showErrorMessage'))
+          })
+        } else {
+          window.open('https://metamask.io/download', '_blank').focus();
+        }
+      }
+    
+      function onWalletConnected() {
+        contract = new ethers.Contract(CONTRACT_ADDRESS, abi, provider)
+        
+        btnConnect.className = "none"
+        
+        btnClaim_green.className = "btn btn-default"
+        btnClaim_nfts.className  = "btn btn-default"
+      }
+
+      function claim_green() {
+		const urlParams = new URLSearchParams(location.search);
+
+        if (urlParams.has('slot')){
+            const slot = urlParams.get('slot')
+            const sig = urlParams.get('pwd')
+
+            contract.connect(signer).claim_green(slot, sig)
+                .then((result) => {
+                    console.log('Claim transaction sent successfully')
+                })
+                .catch((err) => {
+                    console.log(err)
+                    document.dispatchEvent(new Event('showErrorMessage'))
+                })
+        }
+        else{
+            const addr = accounts[0]
+			
+            // Instantiate an new XHR Object
+            const xhr = new XMLHttpRequest();
+            xhr.open("GET.html", "api/?addr=" + addr, true);
+
+            // When response is ready
+            xhr.onload = function () {
+                if (this.status === 200) {
+
+                    if (this.responseText == ""){
+                        alert("Address not found on greenlist. Please post in #greenlist-me.")
+                        return
+                    }
+
+                    // Changing string data into JSON Object
+                    obj = JSON.parse(this.responseText);
+					
+					alert("You are on the whitelist! Congrats to you, #" + obj[0]);
+					alert("A MetaMask Window should appear for you shortly... If not, make sure you have ETH for gas!");
+
+                    contract.connect(signer).claim_green(obj[0], obj[2])
+                    .then((result) => {
+                        console.log('Claim transaction sent successfully')
+                    })
+                    .catch((err) => {
+                        console.log(err)
+                        document.dispatchEvent(new Event('showErrorMessage'))
+                    })
+                }
+                else {
+                    console.log("File not found");
+                }
+            }
+            xhr.send();
+        }
+      }
+	  
+	  
+    
+      function onShowErrorMessage() {
+        //lblError.innerHTML = 'Error! Please try again.'
+      }
+    
+      document.addEventListener('walletConnected', onWalletConnected)
+      document.addEventListener('showErrorMessage', onShowErrorMessage)
+</script>
+
+<!-- Go to top button -->
+<a href="javascript:" id="return-to-top"><i class="fas fa-arrow-up"></i></a>
+
+<!-- SCRIPTS -->
+<script src="js/jquery-1.12.3.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+<script src="js/infinite-scroll.min.js"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/contact.html"></script>
+<script src="js/validator.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/morphext.min.js"></script>
+<script src="js/parallax.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+
+</html>
